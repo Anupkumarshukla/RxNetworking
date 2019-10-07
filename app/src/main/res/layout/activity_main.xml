@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:onClick="map"
+        android:text="@string/map"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/zip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:onClick="zip"
+        android:text="@string/zip"
+        app:layout_constraintTop_toBottomOf="@id/map"
+        />
+
+    <Button
+        android:id="@+id/flatMapAndFilter"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:onClick="flatMapAndFilter"
+        android:text="@string/flatMapAndFilter"
+        app:layout_constraintTop_toBottomOf="@id/zip"/>
+
+    <Button
+        android:id="@+id/flatMap"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:onClick="flatMap"
+        android:text="@string/flatMap"
+        app:layout_constraintTop_toBottomOf="@id/flatMapAndFilter"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

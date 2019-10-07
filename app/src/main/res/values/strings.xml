@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RxjavaNetworking</string>
+    <string name="map">Map</string>
+    <string name="zip">Zip</string>
+    <string name="flatMapAndFilter">flatMapAndFilter</string>
+    <string name="flatMap">flatMap</string>
+</resources>
